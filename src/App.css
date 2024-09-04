@@ -1,3 +1,4 @@
+/* Existing styles */
 .App {
   text-align: center;
 }
@@ -5,12 +6,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +19,47 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* New and updated styles */
+
+/* Centering the entire application and setting some spacing */
+.App {
+  text-align: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for the total medals section in App component */
+.total-medals {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the Country component's Card */
+.country-card {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styling for the Medals component */
+.medal-container {
+  margin: 10px 0;
+}
+
+.medal-title {
+  margin-bottom: 10px;
+}
+
+.medal-button {
+  margin-right: 10px;
+}
+
+/* Existing styles for buttons */
+.button-increment {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.button-decrement {
+  margin-top: 20px;
 }
